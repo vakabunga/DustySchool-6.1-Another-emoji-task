@@ -1,0 +1,30 @@
+{
+  "name": "dustyschool-6.3-another-emoji-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && cp -Ra ./src/. dist && babel src -d dist",
+    "lint": "eslint ./src && stylelint './src/**/*.css'",
+    "lint:fix": "eslint ./src --fix && stylelint './src/**/*.css' --fix",
+    "start": "http-server ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.23.4",
+    "@babel/core": "7.23.7",
+    "@babel/preset-env": "7.23.8",
+    "@shopify/stylelint-plugin": "13.0.0",
+    "eslint": "8.56.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.29.1",
+    "http-server": "14.1.1",
+    "stylelint": "15.10.0",
+    "stylelint-config-standard": "36.0.0",
+    "stylelint-order": "6.0.4",
+    "stylelint-semantic-groups": "1.2.1"
+  }
+}
