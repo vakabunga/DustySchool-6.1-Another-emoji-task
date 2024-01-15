@@ -12,3 +12,7 @@
 2. `npm install`
 3. `npm build`
 4. `npm start`
+
+## GitPages
+
+https://vakabunga.github.io/DustySchool-6.3-Another-emoji-task/src
