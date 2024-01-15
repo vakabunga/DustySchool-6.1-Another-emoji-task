@@ -2,7 +2,7 @@
 
 Сделайте поле ввода, в которое можно дописывать эмоджики с помощью дополнительного меню эмоджиков, примерно так
 
-![Untitled](https://user-images.githubusercontent.com/436043/163686169-766ef715-89b5-4ada-88d7-672623713bc0.png)
+![Untitled](https://raw.githubusercontent.com/LCweb-ita/LC-emoji-picker/HEAD/picker_preview.png)
 
 обычный текст туда с клавиатуры писать тоже должно быть можно. На событие `change` инпута выводите его содержимое в интерфейс или консоль
 
