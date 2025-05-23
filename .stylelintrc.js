@@ -7,5 +7,6 @@ module.exports = {
     'order/order': selectorOrdering,
     'order/properties-order': propertyOrdering,
     'selector-class-pattern': /[a-z_\-]+/,
+    'color-no-hex': null,
   },
 };
