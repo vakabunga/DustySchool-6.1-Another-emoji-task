@@ -1,5 +1,3 @@
-/* eslint-disable new-cap */
-/* eslint-disable no-new */
 new lc_emoji_picker('textarea, input');
 
 const chatWindow = document.querySelector('.chat-window');

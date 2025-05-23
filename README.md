@@ -12,7 +12,8 @@
 2. `npm install`
 3. `npm build`
 4. `npm start`
+5. go to http://localhost:8080/
 
 ## GitPages
 
-https://vakabunga.github.io/DustySchool-6.3-Another-emoji-task/src
+https://vakabunga.github.io/DustySchool-6.1-Another-emoji-task/
