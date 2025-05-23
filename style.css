@@ -1,0 +1,19 @@
+.input {
+    width: 100%;
+    padding: 8px 10px;
+    padding-right: 27px;
+}
+
+.chat-window {
+    width: 100%;
+}
+
+.message {
+    width: fit-content;
+    padding: 5px 10px;
+
+    border: 0.3px solid #809772;
+    border-radius: 10px;
+
+    background-color: #d2fbb9;
+}
