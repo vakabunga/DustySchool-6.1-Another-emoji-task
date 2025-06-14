@@ -1,6 +1,5 @@
 "use strict";
 
-new lc_emoji_picker('textarea, input');
 var chatWindow = document.querySelector('.chat-window');
 var form = document.querySelector('.form');
 var input = document.querySelector('.input');
@@ -11,4 +10,10 @@ form.addEventListener('submit', function (event) {
   message.textContent = input.value;
   chatWindow.appendChild(message);
   input.value = '';
+});
+new FgEmojiPicker({
+  trigger: ['button'],
+  position: ['bottom', 'left'],
+  preFetch: true,
+  insertInto: document.querySelector('.input')
 });

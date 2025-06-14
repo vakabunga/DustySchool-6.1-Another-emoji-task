@@ -1,19 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Еще одно задание с эмоджиком</title>
-</head>
-<body class="page">
+  </head>
+  <body class="page">
     <form action="submit" class="form">
-        <input class="input" type="text" name="sample-input" placeholder="Type your message, pick emoji and press 'Enter'" />
+      <input
+        class="input"
+        type="text"
+        name="sample-input"
+        placeholder="Type your message, pick emoji and press 'Enter'"
+      />
+      <button class="emoji-button" type="button">😁</button>
     </form>
     <div class="chat-window"></div>
 
-    <script src="./modules/lc_emoji_picker.min.js"></script>
+    <script src="./fgEmojiPicker.js"></script>
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
