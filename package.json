@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && cp -Ra ./src/. dist && babel src -d dist",
+    "build": "rm -rf dist && cp -Ra ./src/. dist && cp -Ra ./node_modules/fg-emoji-picker/fgEmojiPicker.js dist && cp -Ra ./node_modules/fg-emoji-picker/full-emoji-list.json dist && babel src -d dist",
     "lint": "eslint ./src && stylelint './src/*.css'",
     "lint:fix": "eslint ./src --fix && stylelint './src/*.css' --fix",
     "start": "http-server ./dist",
@@ -25,5 +25,8 @@
     "stylelint": "15.10.0",
     "stylelint-order": "6.0.4",
     "stylelint-semantic-groups": "1.2.1"
+  },
+  "dependencies": {
+    "fg-emoji-picker": "1.0.1"
   }
 }
